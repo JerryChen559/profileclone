@@ -1,0 +1,68 @@
+.navbar {
+  height: 10vh;
+  width: 100%;
+  border: green solid 2px;
+  background-color: #333;
+}
+
+.title {
+  color: #fed136;
+  float: left;
+  height: 10vh;
+  width: 20%;
+  font-size: 20px;
+  font-family: Kaushan Script;
+  margin-top: 15px;
+}
+
+.navbarblock button {
+  display: none;
+}
+
+.navbarblock {
+  float: right;
+  height: 10vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top {
+  color: white;
+}
+.top:hover {
+  color: #fed136;
+}
+
+/* desktop size */
+@media (max-width: 900px) {
+  .title {
+    width: 60%;
+    font-size: 25px;
+  }
+  .navbarblock {
+    width: 20%;
+  }
+  .navbarblock button {
+    display: block;
+    float: right;
+  }
+
+  .top {
+    display: none;
+  }
+  /* .top {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    padding: 10px;
+    position: absolute;
+    left: -200px;
+    top: 0;
+    transition: left 300ms ease-out;
+  } */
+}
+
+/* @media (max-width: 768px) {
+  
+} */
